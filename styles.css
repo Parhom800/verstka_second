@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F9F9F9;
+    font-family: 'Satoshi', sans-serif;
+  }
+  
+  .cart-title {
+    position: absolute;
+    left: 188px;
+    top: 64px;
+    font-family: 'Clash Display';
+    font-size: 36px;
+    color: #2A254B;
+  }
+  
+  .table-header {
+    position: absolute;
+    top: 162px;
+  }
+  
+  .col-product {
+    position: absolute;
+    left: 188px;
+    font-size: 14px;
+    color: #2A254B;
+  }
+  .col-qty {
+    position: absolute;
+    left: 838px;
+    font-size: 14px;
+    color: #2A254B;
+  }
+  .col-total {
+    position: absolute;
+    left: 1212px;
+    font-size: 14px;
+    color: #2A254B;
+  }
+  
+  .divider {
+    position: absolute;
+    width: 1064px;
+    border: 1px solid #EBE8F4;
+    left: 188px;
+  }
+  .divider.top {
+    top: 194px;
+  }
+  .divider.bottom {
+    top: 534px;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 21px;
+    position: absolute;
+    height: 134px;
+    left: 188px;
+  }
+  .product-1 {
+    top: 214px;
+    width: 309px;
+  }
+  .product-2 {
+    top: 368px;
+    width: 292px;
+  }
+  .product img {
+    width: 109px;
+    height: 134px;
+    object-fit: cover;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .product-name {
+    font-size: 20px;
+    font-family: 'Clash Display';
+    color: #2A254B;
+  }
+  .product-desc {
+    font-size: 14px;
+    color: #2A254B;
+  }
+  .product-price {
+    font-size: 16px;
+    color: #2A254B;
+  }
+  
+  .stepper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: #F9F9F9;
+    width: 122px;
+    height: 46px;
+    position: absolute;
+  }
+  .stepper-1 {
+    top: 226px;
+    left: 838px;
+  }
+  .stepper-2 {
+    top: 380px;
+    left: 838px;
+  }
+  .stepper .minus,
+  .stepper .plus {
+    color: #EBE8F4;
+  }
+  .stepper .qty {
+    color: #2A254B;
+  }
+  
+  .price {
+    position: absolute;
+    font-size: 18px;
+    color: #2A254B;
+  }
+  .price-1 {
+    top: 225px;
+    left: 1212px;
+  }
+  .price-2 {
+    top: 380px;
+    left: 1209px;
+  }
+  
+  .summary {
+    position: absolute;
+    top: 562px;
+    left: 970px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+  }
+  .subtotal {
+    display: flex;
+    gap: 16px;
+    font-size: 20px;
+    color: #4E4D93;
+  }
+  .subtotal strong {
+    font-size: 24px;
+    color: #2A254B;
+  }
+  .note {
+    font-size: 14px;
+    color: #4E4D93;
+  }
+  
+  .checkout-button {
+    position: absolute;
+    width: 172px;
+    height: 56px;
+    left: 1080px;
+    top: 645px;
+    background: #2A254B;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border: none;
+    font-family: 'Satoshi';
+    cursor: pointer;
+  }
+  
+  .top-nav {
+    position: relative;
+    width: 1440px;
+    height: 132px;
+    background: #FFFFFF;
+  }
+  
+  .logo {
+    position: absolute;
+    width: 65px;
+    height: 30px;
+    left: 687px;
+    top: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #22202E;
+  }
+  
+  .main-links {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+    left: 382px;
+    top: 90px;
+  }
+  
+  .main-links a {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #726E8D;
+    text-decoration: none;
+  }
+  
+  .nav-icons {
+    position: absolute;
+    top: 26px;
+    left: 28px;
+    display: flex;
+    gap: 32px;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+  }
+  
+  .search-icon {
+    /* already placed at left: 28px */
+  }
+  
+  .cart-icon {
+    position: absolute;
+    left: 1336px;
+    top: 0;
+  }
+  
+  .user-icon {
+    position: absolute;
+    left: 1368px;
+    top: 0;
+  }
+  
+  .nav-divider {
+    position: absolute;
+    width: calc(100% - 56px);
+    left: 28px;
+    top: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .site-footer {
+    background-color: #2A254B;
+    color: white;
+    padding: 2rem;
+    font-family: 'Satoshi', sans-serif;
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-block h4 {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .footer-block ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-block li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-block a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-block.newsletter form {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-block.newsletter input {
+    padding: 0.75rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    width: 200px;
+  }
+  
+  .footer-block.newsletter button {
+    background: white;
+    color: #2A254B;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+  }
+  
+  .footer-divider {
+    border: 1px solid #4E4D93;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-socials span {
+    margin-left: 1rem;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 1024px) {
+    .main-links {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .footer-columns {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .stepper, .product, .price {
+      position: static;
+    }
+  
+    .cart-title, .table-header, .summary, .checkout-button {
+      position: static;
+      margin: 1rem auto;
+      text-align: center;
+    }
+  
+    .checkout-button {
+      display: block;
+      margin: 2rem auto;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footer-block.newsletter form {
+      flex-direction: column;
+    }
+  
+    .footer-block.newsletter input {
+      width: 100%;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-socials {
+      margin-top: 1rem;
+    }
+  }
+  
